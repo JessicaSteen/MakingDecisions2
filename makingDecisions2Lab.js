@@ -15,7 +15,8 @@ console.log(firstItem)
 */
 
 //Code Here
-
+var lastItemRemoved = arr.splice(5, 1)
+console.log(arr)
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
