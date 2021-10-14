@@ -88,10 +88,13 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 // Do not edit the code above.
 
 /*
-  Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
+  Create a variable named 'someNum' and set it equal to the fifth value of the 
+  'myFavoriteNumbers' array.
 */
 
 //Code Here
+  var someNum = myFavoriteNumbers.slice(4, myFavoriteNumbers.length -1)
+  console.log(someNum)
 
 
 ////////// PROBLEM 7 //////////
